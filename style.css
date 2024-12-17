@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Oswald:wght@200..700&family=Playwrite+CO+Guides&display=swap');
+html{
+    font-size: 100%;
+ }
+ body{
+    font-family: "Caveat", cursive;
+    
+    font-weight: 700;
+  font-style: normal;
+   
+ 
+ 
+ }
+ h1,h2,h3,h4,h5,h6{
+    /* Here you can set the font-family for your headings */
+    font-family: "Oswald", sans-serif;
+      
+ }
+ 
+ p{
+    color: rgb(155, 11, 190);
+    font-size: 26px;
+  }
+  body{
+    background-color: #7db0bd;
+  }
+ /*  ------------------------------------------------------
+    HYPERLINK STYLING
+    Change the colors here to match the colors you want for your site.
+    ------------------------------------------------------ */
+ a{
+    color: #1313f1;
+    text-decoration: none;
+    border-bottom: 1px solid #1313f1;
+ }
+ a:hover{
+    color: #28b1e7;
+    border-bottom: 3px solid #0fa4df;
+ }
+ a:visited{
+    color: #e91ce9;
+    border-bottom: 1px solid #1313f1;
+ }
+ 
+
+ /*  ------------------------------------------------------
+    NAVIGATION STYLING
+    This turns an unordered list in the nav element to a horizontal menu
+    It also sets the color for the navigation.
+    ------------------------------------------------------ */
+ nav{
+    background-color: #de98f3;
+    padding: 10px;
+    font-size: 2rem;
+ }
+    nav ul{
+    margin: 0;
+    padding: 0;
+ }
+ nav li
+ {
+    display: inline; /* brings nav elements up next to each other */
+    list-style-type: none; /* removes the bullet points */
+    font-size: 26px;
+    padding-right: 16px; /* spaces them out from each other. Adjust to suit your needs */
+ }
+ /* Change this to whatever color you want your nav and visited nav links to be */
+ nav li a{
+    color: #9d20e6;
+    border-bottom: none;
+ }
+ nav li a:visited{
+    color: #d51dfa;
+   
+ }
+ 
+ 
+ /*  ------------------------------------------------------
+    MEDIA STYLING
+    These styles affect how images and audio look on the page.
+    ------------------------------------------------------ */
+ /* Responsive Image Base */
+ img,video{
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ 
+ /* Styling for video embeded with iframe */
+ .videoWrapper {
+    position: relative;
+    padding-top: 25px;
+    height: 0;
+    clear:both;
+    outline:1px solid red;
+  }
+   .videoWrapper.ratio-16-9{
+      padding-bottom: 56.25%; /* 16:9 */
+  }
+   .videoWrapper.ratio-4-3{
+      padding-bottom: 75%; /* 4:3 */
+  }
+   .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ 
+  h1{
+    text-align: center;
+  }
+  
